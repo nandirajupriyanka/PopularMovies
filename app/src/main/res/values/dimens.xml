@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_top_rb">8dp</dimen>
+    <dimen name="padding_bottom_rb">8dp</dimen>
+    <dimen name="padding_top_detail_label">8dp</dimen>
+    <dimen name="padding_bottom_detail_label">8dp</dimen>
+    <dimen name="margin_top_detail_divider">8dp</dimen>
+    <dimen name="padding_trailer_name">8dp</dimen>
+    <dimen name="padding_bottom_item_review">8dp</dimen>
+    <dimen name="padding_ns">16dp</dimen>
+</resources>

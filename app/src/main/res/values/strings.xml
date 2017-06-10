@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+    <string name="movie_detail">Movie Detail</string>
+    <string name="popular">Popular</string>
+    <string name="rating">Rating</string>
+    <string name="favourites">Favourites</string>
+    <string name="mark_as_favourite">Mark as favourite</string>
+    <string name="trailers">Trailers</string>
+    <string name="reviews">Reviews</string>
+    <string name="failed_to_mark_as_favourite">Failed to mark as favourite</string>
+    <string name="successfully_saved_as_favourite">Successfully saved as favourite</string>
+    <string name="no_supporting_app">No supporting app for this action</string>
+    <string name="unable_to_fetch_data">Unable to fetch data</string>
+    <string name="no_fav_movies">No favourite movies</string>
+</resources>

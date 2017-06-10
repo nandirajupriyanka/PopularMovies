@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tv_release_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        app:layout_constraintLeft_toRightOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_favourite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/color_bg_ib"
+        android:contentDescription="@string/mark_as_favourite"
+        android:src="@android:drawable/btn_star"
+        app:layout_constraintRight_toLeftOf="parent" />
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        style="@style/Base.Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="10"
+        android:paddingBottom="@dimen/padding_bottom_rb"
+        android:paddingTop="@dimen/padding_top_rb"
+        app:layout_constraintTop_toBottomOf="@+id/btn_favourite"/>
+
+    <TextView
+        android:id="@+id/tv_synopsis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        app:layout_constraintTop_toBottomOf="@+id/rating_bar"/>
+
+</android.support.constraint.ConstraintLayout>
